@@ -1,67 +1,191 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>Pegatti Fretes</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="./img/Pegatti.jpg">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pegatti — Soluções & Serviços</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
 </head>
 <body>
-
-<header>
-    <img src="./img/Pegatti.jpg" alt="Pegatti Fretes" class="logo">
-    <p>eviando mais que cargas, entregando confianç</p>
-</header>
-
-<main>
-
-<section class="card destaque">
-    <h2>Quem somos</h2>
-     <p >A Pegatti Transportes é uma empresa com 3 anos de atuação, localizada em Francisco Beltrão. Fundada e dirigida por Jerson Luiz Menegatti, nasceu com o objetivo de oferecer serviços de transporte com agilidade, segurança e compromisso. Ao longo do tempo, conquistamos a confiança dos clientes com um trabalho sério e eficiente.</p>
-</section>
-
-<section class="card">
-    <h2>Cidades atendidas</h2>
-
-     <div class="grid">
-        <div class="cidade">Ampere</div>
-        <div class="cidade">Santa Isabel do Oeste</div>
-        <div class="cidade">Realeza</div>
-        <div class="cidade">Planalto</div>
-        <div class="cidade">Capanema</div>
-        <div class="cidade">Perola</div>
-        <div class="cidade">Bela Vista da Caroba</div>
-        <div class="cidade">Flor da Cera</div>
-        <div class="cidade">Dionisio</div>
-        <div class="cidade">Barracão</div>
-        <div class="cidade">Bom Jesus</div>
-        <div class="cidade">Santo Antonio</div>
-        <div class="cidade">Pranchita</div>
-        <div class="cidade">Pinhal de São Bento</div>
-        <div class="cidade">Pato branco </div>
-        <div class="cidade">Dois vizinhos</div>
-        <div class="cidade">Sçao Joao</div>
-        <div class="cidade">Vere</div>
-        <div class="cidade">Itapejara</div>
-        <div class="cidade">Chopinzinho</div>
-        <div class="cidade">Coronel</div>
+ 
+  <!-- ── NAVBAR ── -->
+  <nav>
+    <div class="logo">
+      <div class="logo-mark"><span>P</span></div>
+      <div class="logo-name">
+        <strong>Pegatti</strong>
+        <em>Serviços &amp; Frete</em>
+      </div>
     </div>
-</section>
+ 
+    <ul class="nav-links">
+      <li><a href="#sobre" class="active">Sobre nós</a></li>
+      <li><a href="#cidades">Cidades atendidas</a></li>
+      <li><a href="#contato">Fale conosco</a></li>
+    </ul>
+ 
+    
+  </nav>
+ 
+  <!-- ── HERO ── -->
+  <section class="hero">
+    <div class="hero-decor"></div>
+    <div class="hero-inner">
+      <div class="hero-tag">Pegatti — Excelência em serviços</div>
+       <h1>Resultados que<br><em>transformam</em><br>negócios</h1>
+         <p>Há 3 anos entregando  com qualidade, agilidade e comprometimento .</p>
+         <div class="hero-btns">
+           <button class="btn-hero-primary" onclick="document.getElementById('sobre').scrollIntoView({behavior:'smooth'})">
+          Conheça a Pegatti
+           </button>
+        <button class="btn-hero-outline" onclick="document.getElementById('contato').scrollIntoView({behavior:'smooth'})">
+          Fale com nosco
+        </button>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="stat-num">3</div>
+          <div class="stat-label">Anos de mercado</div>
+        </div>
+        <div>
+          <div class="stat-num">2500+</div>
+          <div class="stat-label">Entregas atendidas</div>
+        </div>
+        <div>
+          <div class="stat-num">20</div>
+          <div class="stat-label">Cidades presentes</div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ── SOBRE NÓS ── -->
+  <section class="section" id="sobre">
+    <div class="section-eyebrow">Sobre nós</div>
+    <h2 class="section-title">Quem é a Pegatti</h2>
+    <p class="section-sub">Uma empresa fundada com propósito, crescida com valores e reconhecida pela excelência no atendimento em suas Entregas.</p>
+ 
+    <div class="grid-3">
+      <div class="photo-card">
+        <div class="photo-placeholder">
+          <i class="ti ti-building"></i>
+          <span>Foto da empresa</span>
+        </div>
+        <div class="card-body">
+          <div class="card-tag">Nossa história</div>
+          <h3 class="card-title">Tradição e inovação</h3>
+          <p class="card-desc">Fundada com o propósito de transformar o setor de Fretes, crescemos com valores sólidos e foco total no cliente.</p>
+        </div>
+      </div>
+ 
+      <div class="photo-card">
+        <div class="photo-placeholder">
+          <i class="ti ti-target"></i>
+          <span>Missão</span>
+        </div>
+        <div class="card-body">
+          <div class="card-tag">Missão</div>
+          <h3 class="card-title">Excelência em tudo</h3>
+          <p class="card-desc">Comprometidos em oferecer as melhores Entregas com agilidade, confiança e resultados concretos.</p>
+        </div>
+      </div>
+ 
+      <div class="photo-card">
+        <div class="photo-placeholder">
+          <i class="ti ti-eye"></i>
+          <span>Visão</span>
+        </div>
+        <div class="card-body">
+          <div class="card-tag">Visão</div>
+          <h3 class="card-title">Conhecimento estadual</h3>
+          <p class="card-desc">Ser a referência do setor, expandindo presença e impacto positivo em todo o território do Sul do paraná.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  
+  <!-- ── CIDADES ATENDIDAS ── -->
+  <section class="cities-section" id="cidades">
+    <div class="section-eyebrow">Cidades atendidas</div>
+    <h2 class="section-title">Onde a Pegatti atua</h2>
+    <p class="section-sub">Presente nas principais cidades do Brasil, levando nossas soluções cada vez mais longe.</p>
+ 
+    <div class="cities-grid">
+      <span class="city-pill"><i class="ti ti-map-pin"></i>Francisco Beltrão, PR</span>
+      <span class="city-pill"><i class="ti ti-map-pin"></i>Pato Branco, PR</span>
+      <span class="city-pill"><i class="ti ti-map-pin"></i>Àmpere, PR</span>
+      <span class="city-pill"><i class="ti ti-map-pin"></i>Santa Isabel Do Oeste, PR</span>
+      <span class="city-pill"><i class="ti ti-map-pin"></i>Realeza, PR</span>
+      <span class="city-pill"><i class="ti ti-map-pin"></i>Planalto, PR</span>
+      <span class="city-pill"><i class="ti ti-map-pin"></i>Capanema, SP</span>
+      <span class="city-pill"><i class="ti ti-map-pin"></i>Perola do Oeste, PR</span>
+      <span class="city-pill"><i class="ti ti-map-pin"></i>Boa Vista Da Caroba, </span>
+      <span class="city-pill"><i class="ti ti-map-pin"></i>Flor da  Serra Do Sul, PR</span>
+      <span class="city-pill"><i class="ti ti-map-pin"></i>Barracão, SP</span>
+      <span class="city-pill"><i class="ti ti-map-pin"></i>Dionísio Cerqueira, PR</span>
+      <span class="city-pill"><i class="ti ti-map-pin"></i>Bom Jesus do Sul, PR</span>
+      <span class="city-pill"><i class="ti ti-map-pin"></i>Santo Antônio do Sudoeste, PR</span>
+      <span class="city-pill"><i class="ti ti-map-pin"></i>Pranchita, PR</span>
+      <span class="city-pill"><i class="ti ti-map-pin"></i>Pinhal de São Bento, PR</span>
+      <span class="city-pill"><i class="ti ti-map-pin"></i>Pranchita, PR</span>
 
-<!-- CONTATO EM CARD SEPARADO -->
-<section class="card contato">
-    <h2>Fale conosco</h2>
-    <p>Entre em contato pelo WhatsApp para mais informações:</p>
-    <a href="https://wa.me/5546988316376" target="_blank">
-        Chamar no WhatsApp
-    </a>
-</section>
-
-</main>
-
-<footer>
-    <p>© 2026 - Pegatti Fretes</p>
-</footer>
-
+    </div>
+  </section>
+ 
+  <!-- ── FALE CONOSCO ── -->
+  <section class="contact-section" id="contato">
+    <div class="contact-inner">
+      <div class="section-eyebrow">Fale conosco</div>
+      <h2 class="section-title">Vamos conversar</h2>
+      <p class="section-sub">Estamos prontos para atender você. Fale com nossa equipe e descubra O valor Do seu frete.</p>
+ 
+      <div class="contact-items">
+        <span class="contact-item"><i class="ti ti-phone"></i>(46) 8831-6376</span>
+        <span class="contact-item"><i class="ti ti-mail"></i>contato@pegatti.com.br</span>
+        <span class="contact-item"><i class="ti ti-clock"></i>Seg–Sex, 6h–18h</span>
+      </div>
+ 
+      <button class="btn-contact">
+        <a class="btn-contact" href="https://wa.me/554688316376" target="_blank">
+           Enviar mensagem
+       </a>
+      </button>
+    </div>
+  </section>
+ 
+  <!-- ── FOOTER ── -->
+  <footer>
+    <span class="footer-logo">Pegatti</span>
+    <span class="footer-copy">© 2026 Pegatti — Todos os direitos reservados</span>
+  </footer>
+ 
+  <script>
+    // Scroll suave para links do menu
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+ 
+    // Marca link ativo no scroll
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+ 
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(sec => {
+        if (window.scrollY >= sec.offsetTop - 100) current = sec.getAttribute('id');
+      });
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === '#' + current) link.classList.add('active');
+      });
+    });
+  </script>
+ 
 </body>
 </html>
