@@ -368,11 +368,9 @@ nav {
   background: var(--yellow);
   padding: 70px 2.5rem;
 }
-
 .cities-section .section-eyebrow {
   color: rgba(0, 0, 0, 0.5);
 }
-
 .cities-section .section-eyebrow::before {
   background: var(--black);
 }
@@ -387,6 +385,8 @@ nav {
   flex-wrap: wrap;
   gap: 10px;
 }
+
+/* ── CITY PILL com brilho ── */
 .city-pill {
   background: rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -399,14 +399,18 @@ nav {
   display: inline-flex;
   align-items: center;
   gap: 7px;
-  transition: background 0.2s;
+  transition: all 0.3s ease;
 }
 .city-pill:hover {
-  background: rgba(0, 0, 0, 0.18);
+  background: #fff;
+  color: var(--black);
+  border-color: #fff;
+  box-shadow: 0 0 30px 8px rgba(255, 255, 255, 0.7);
 }
 .city-pill i {
   font-size: 14px;
 }
+
 /* ── CONTATO ── */
 .contact-section {
   background: var(--black);
